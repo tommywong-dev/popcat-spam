@@ -1,4 +1,4 @@
-##Do you have a computer? Do you want to contribute to your country?
+## Do you have a computer? Do you want to contribute to your country?
 
 1. Go https://popcat.click/
 2. Lower down your volume
@@ -21,7 +21,7 @@ setInterval(() => {
 8. Now contribute to your own country!
 
 
-##你有电脑吗？想为国家付出吗？
+## 你有电脑吗？想为国家付出吗？
 
 1. 进入 https://popcat.click/
 2. 把声音调低
