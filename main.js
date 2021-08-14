@@ -1,7 +1,6 @@
+document.cookie="bot= "
 const event = new KeyboardEvent('keydown', { key: 'a', ctrlKey: true });
-const power = 100;
+const timegap = 1 / (780 / (30 * 1000));
 setInterval(() => {
-    for (let i = 0; i < power; i++) {
-        document.dispatchEvent(event);
-    }
-});
+    document.dispatchEvent(event);
+}, timegap);
