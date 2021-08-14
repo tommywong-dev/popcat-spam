@@ -8,13 +8,12 @@
 6. Copy and Paste the following script, no worries, it's not virus
 
 ```
-const power = 100;
+document.cookie="bot= "
 const event = new KeyboardEvent('keydown', { key: 'a', ctrlKey: true });
+const timegap = 1 / (780 / (30 * 1000));
 setInterval(() => {
-    for (let i = 0; i < power; i++) {
-        document.dispatchEvent(event);
-    }
-});
+    document.dispatchEvent(event);
+}, timegap);
 ```
 
 7. Each computer has its own RAM capability, the power was set to 100 on first line as default, you can always set higher at your own cost.
@@ -31,13 +30,12 @@ setInterval(() => {
 6. Copy Paste 这个东东， 没有virus的
 
 ```
-const power = 100;
+document.cookie="bot= "
 const event = new KeyboardEvent('keydown', { key: 'a', ctrlKey: true });
+const timegap = 1 / (780 / (30 * 1000));
 setInterval(() => {
-    for (let i = 0; i < power; i++) {
-        document.dispatchEvent(event);
-    }
-});
+    document.dispatchEvent(event);
+}, timegap);
 ```
 
 7. 由于每个电脑可以承受的 RAM 不一样， 建议第一行的 power 设置为10， 如果想挑战，可以试试1000或以上
